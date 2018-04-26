@@ -6734,9 +6734,12 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Open Sans', sans-serif !important; }
 
+/*=========HEADER=========*/
 header {
   box-shadow: 0px 0px 5px black;
   margin-bottom: 2.406px; }
+  header .navbar {
+    box-shadow: 0px 0px 5px black; }
   header .navbar-brand img {
     width: 150px;
     padding-left: 7.5px; }
@@ -6744,6 +6747,7 @@ header {
 .navbar-toggler {
   border: white !important; }
 
+/*=========SLIDER=========*/
 .slider .info {
   position: relative;
   top: 55px;
@@ -6761,26 +6765,100 @@ header {
   font-size: 16px; }
 .slider span {
   font-size: 35px; }
-
-.slick-next {
+.slider .slick-next {
   position: relative; }
-
-.slick-next:before, .slick-prev:before {
+.slider .slick-next:before, .slider .slick-prev:before {
   color: transparent; }
-
-.slick-dots {
+.slider .slick-dots {
   bottom: 40px; }
-  .slick-dots li button {
+  .slider .slick-dots li button {
     background-image: url("../assets/icons/icon 1.png"); }
-  .slick-dots li button:before {
+  .slider .slick-dots li button:before {
     color: transparent; }
-  .slick-dots li button:hover {
+  .slider .slick-dots li button:hover {
     background-image: url("../assets/icons/icon1.png"); }
-  .slick-dots .slick-active button {
+  .slider .slick-dots .slick-active button {
     background-image: url("../assets/icons/icon1.png"); }
-  .slick-dots .slick-active button:before {
+  .slider .slick-dots .slick-active button:before {
     color: transparent !important; }
 
+/*=========ABOUT US=========*/
+.aboutUs {
+  color: #013e7d; }
+  .aboutUs h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .aboutUs p {
+    text-align: justify;
+    font-size: 14px;
+    margin: 0; }
+  .aboutUs .about-box {
+    margin-bottom: 40px; }
+  .aboutUs ol {
+    list-style: none;
+    padding: 0; }
+    .aboutUs ol img {
+      width: 14px; }
+    .aboutUs ol span {
+      padding-left: 5px;
+      font-size: 14px; }
+  .aboutUs .image {
+    margin: 30px auto; }
+  .aboutUs .justify-content-center {
+    margin-top: 50px; }
+
+/*=========SERVICE=========*/
+.service h2 {
+  color: #013e7d;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px; }
+.service .iso-box {
+  background-image: url("../assets/images/fondo2.png");
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  color: white;
+  cursor: pointer;
+  transition: 1s; }
+  .service .iso-box h3 {
+    font-size: 30px;
+    font-weight: bold; }
+  .service .iso-box p {
+    font-size: 20px; }
+.service .iso-box:hover {
+  background-image: url("../assets/images/fondo1.png"); }
+.service .iso-boxes {
+  margin-bottom: 50px; }
+.service .slick-next {
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/icons/arrow-r.png");
+  background-repeat: no-repeat;
+  right: -60px; }
+.service .slick-prev {
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/icons/arrow-l.png");
+  background-repeat: no-repeat;
+  left: -60px; }
+.service .slick-next:before, .service .slick-prev:before {
+  color: transparent; }
+.service .slick-slide {
+  width: 228px; }
+.service .slider-customers {
+  margin: 100px 0; }
+.service .slick-dots li button:before {
+  font-size: 2px; }
+
+/*=========HELP=========*/
+.help h2 {
+  color: #013e7d;
+  font-weight: bold;
+  font-size: 30px; }
+
+/*=========CONTACT=========*/
 @media (max-width: 560px) {
   .slide {
     background-repeat: no-repeat;
