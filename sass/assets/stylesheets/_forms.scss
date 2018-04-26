@@ -8,17 +8,18 @@
   display: block;
   width: 100%;
   padding: $input-padding-y $input-padding-x;
-  font-size: $font-size-base;
+  font-size: 14px;
   line-height: $input-line-height;
-  color: $input-color;
-  background-color: $input-bg;
+  color: black;
+  background-color: #f7f7f7;
   background-clip: padding-box;
   border: $input-border-width solid $input-border-color;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 
   // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
   @if $enable-rounded {
     // Manually use the if/else instead of the mixin to account for iOS override
-    border-radius: $input-border-radius;
+    border-radius: 5px;
   } @else {
     // Otherwise undo the iOS default
     border-radius: 0;
@@ -38,7 +39,7 @@
 
   // Placeholder
   &::placeholder {
-    color: $input-placeholder-color;
+    color: #333;
     // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
     opacity: 1;
   }

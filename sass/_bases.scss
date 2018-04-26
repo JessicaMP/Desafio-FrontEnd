@@ -1,5 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif !important;
+	font-size: 14px;
+	color: #333;
 }
 /*=========HEADER=========*/
 header {
@@ -158,7 +160,7 @@ header {
 	}
 
 	.iso-boxes {
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 
 	.slick-next {
@@ -186,7 +188,7 @@ header {
 	}
 
 	.slider-customers {
-		margin: 100px 0;
+		margin: 80px 0;
 	}
 
 	.slick-dots li {
@@ -197,13 +199,95 @@ header {
 }
 /*=========HELP=========*/
 .help {
-	h2 {
-		color: #013e7d;
-		font-weight: bold;
-		font-size: 30px;
+	div {
+		margin: 40px 0;
+		h2 {
+			color: #013e7d;
+			font-weight: bold;
+			font-size: 30px;
+		}
 	}
 }
 /*=========CONTACT=========*/
+.contact {
+	 h2 {
+		font-family: 'Montserrat Bold',sans-serif;
+		color: #003786;
+		font-size: 30px;
+	}
+
+	hr {
+		width: 11%;
+		height: 1px;
+    background-color: #003786;
+		margin-top: -6px;
+		position: absolute;
+		left: 1rem;
+	}
+
+	.contact-subtitle {
+		color: #545454;
+		font-family: 'Montserrat Bold',sans-serif;
+		margin: 8px 0;
+		font-size: 14px;
+	}
+
+	.contact-text {
+		color: #979797;
+		font-family: 'Montserrat Light',sans-serif;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+
+	.date-contact {
+		padding-top: 20px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #979797;
+	}
+
+	.text-contact {
+		padding-top: 25px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+		
+		p {
+			color: #545454;
+    	font-family: 'Montserrat Bold',sans-serif;
+			text-align: center;
+		}
+	}
+
+	.form-contact {
+		margin-bottom: 30px;
+
+		textarea {
+			padding-bottom: 75px;
+		}
+
+		button {
+			background-color: #003786;
+			font-size: 14px;
+			font-family: 'Montserrat Light',sans-serif;
+			padding: 10px 60px 10px 60px;
+			border: 0px;
+			border-radius: 5px;
+		}
+	}
+}
+/*=========FOOTER=========*/
+footer {
+	background-color: #015486;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	p {
+		font-size: 14px;
+	}
+}
 
 @media(max-width: 560px){
     .slide {
