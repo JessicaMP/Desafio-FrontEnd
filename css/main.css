@@ -3038,16 +3038,18 @@ input[type="button"].btn-block {
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5); }
+  color: #868686;
+  font-size: 18px;
+  font-weight: bold; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7); }
+    color: #428bca; }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9); }
+  color: #2f527e; }
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
   border-color: rgba(0, 0, 0, 0.1); }
@@ -3074,7 +3076,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff; }
+  color: #2f527e; }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0.1); }
@@ -6739,16 +6741,31 @@ body {
 
 /*=========HEADER=========*/
 header {
-  box-shadow: 0px 0px 5px black;
-  margin-bottom: 2.406px; }
-  header .navbar {
-    box-shadow: 0px 0px 5px black; }
-  header .navbar-brand img {
-    width: 150px;
-    padding-left: 7.5px; }
+  box-shadow: 0px 0px 5px black; }
+  header .nav-item {
+    width: 25%; }
 
 .navbar-toggler {
   border: white !important; }
+
+.icons-box .icons {
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin: 0 5px; }
+.icons-box .ico1 {
+  background-image: url("../assets/icons/icono1.png"); }
+.icons-box .ico1:hover {
+  background-image: url("../assets/icons/1.png"); }
+.icons-box .ico2 {
+  background-image: url("../assets/icons/icono2.png"); }
+.icons-box .ico2:hover {
+  background-image: url("../assets/icons/2.png"); }
+.icons-box .ico3 {
+  background-image: url("../assets/icons/icono3.png"); }
+.icons-box .ico3:hover {
+  background-image: url("../assets/icons/3.png"); }
 
 /*=========SLIDER=========*/
 .slider .info {
@@ -6761,11 +6778,11 @@ header {
   font-weight: bold;
   font-size: 30px; }
 .slider h4 {
-  text-align: center;
   color: #f1f2f5;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  text-align: center; }
 .slider span {
   font-size: 35px; }
 .slider .slick-next {
@@ -6784,6 +6801,15 @@ header {
     background-image: url("../assets/icons/icon1.png"); }
   .slider .slick-dots .slick-active button:before {
     color: transparent !important; }
+
+.slide1 {
+  background-image: url("../assets/images/slider11.jpg"); }
+
+.slide2 {
+  background-image: url("../assets/images/slider22.jpg"); }
+
+.slide3 {
+  background-image: url("../assets/images/slider33.jpg"); }
 
 /*=========ABOUT US=========*/
 .aboutUs {
@@ -6830,6 +6856,8 @@ header {
     font-weight: bold; }
   .service .iso-box p {
     font-size: 20px; }
+.service .iso-box {
+  display: inline-block; }
 .service .iso-box:hover {
   background-image: url("../assets/images/fondo1.png"); }
 .service .iso-boxes {
@@ -6922,19 +6950,43 @@ footer {
     font-size: 14px; }
 
 @media (max-width: 560px) {
+  .navbar-brand img {
+    width: 150px;
+    padding-left: 7.5px; }
+
   .slide {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 467px !important; }
 
-  .slide1 {
-    background-image: url("../assets/images/slider11.jpg"); }
+  .slider {
+    margin-top: 75px; } }
+@media (min-width: 561px) {
+  .navbar-brand img {
+    width: 230px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 200px; }
 
-  .slide2 {
-    background-image: url("../assets/images/slider22.jpg"); }
+  .slide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 567px !important; }
 
-  .slide3 {
-    background-image: url("../assets/images/slider33.jpg"); } }
+  .slider {
+    margin-top: 120px; }
+    .slider h2 {
+      text-align: left; }
+    .slider h4 {
+      text-align: left; }
+
+  .aboutUs p {
+    font-size: 1rem; }
+  .aboutUs ol span {
+    font-size: 1rem; }
+  .aboutUs .image {
+    padding-right: 70px; } }
 
 /*# sourceMappingURL=main.css.map */

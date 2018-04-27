@@ -17,146 +17,188 @@
 <body>
 	<!--==========HEADER===========-->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="d-lg-none d-xl-block fixed-top navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">
 				<img src="assets/logo/logo22.jpg" alt="LOGO COMPANY">
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+			<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
 			 aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home
+						<a class="nav-link" href="#slider">Inicio
 							<span class="sr-only">(current)</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
+						<a class="nav-link" href="#aboutUs">Nosotros</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
+						<a class="nav-link" href="#service">Servicios</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
+						<a class="nav-link" href="#contact">Contáctenos</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+		<nav class="d-none d-lg-block d-xl-block navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="col-md-12">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-10 col-10 d-flex justify-content-center">
+							<a class="navbar-brand" href="#">
+								<img src="assets/logo/logo22.jpg" alt="LOGO COMPANY">
+							</a>
+						</div>
+						<div class="col-md-2 col-2 align-self-center icons-box d-none d-xl-block d-lg-block d-xl-none">
+							<a href="http://www.facebook.com" target="_blank">
+								<div class="icons ico1"></div>
+							</a>
+							<a href="http://www.instagram.com" target="_blank">
+								<div class="icons ico2"></div>
+							</a>
+							<a href="http://www.whatsapp.com" target="_blank">
+								<div class="icons ico3"></div>
+							</a>
+						</div>
+					</div>
+					<div class="row justify-content-md-center">
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+						 aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="col collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav d-flex justify-content-center col-md-10 offset-md-1">
+								<li class="nav-item active">
+									<a class="nav-link" href="#slider">Inicio
+										<span class="sr-only">(current)</span>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#aboutUs">Nosotros</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#service">Servicios</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#contact">Contáctenos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
 	</header>
 	<!--==========SLIDER===========-->
-	<section>
-		<div class="slider">
-			<div class="slide slide1 col-12">
-				<div class="col-12 info">
-					<div class="col-12">
-						<h2>VIVE UNA GRAN
-							<span>EXPERIENCIA</span>
-						</h2>
-					</div>
-					<div class="col-12">
-						<h4>Brindamos servicios de Consultoría en Implementación de Sistemas de Gestión.</h4>
-					</div>
+	<section class="slider" id="slider">
+		<div class="slide slide1 col-12">
+			<div class="col-12 info col-md-4 offset-md-3">
+				<div class="col-12 col-md-12">
+					<h2>VIVE UNA GRAN
+						<span>EXPERIENCIA</span>
+					</h2>
+				</div>
+				<div class="col-12 col-md-12">
+					<h4>Brindamos servicios de Consultoría en Implementación de Sistemas de Gestión.</h4>
 				</div>
 			</div>
-			<div class="slide slide2 col-12">
-				<div class="col-12 info">
-					<div class="col-12">
-						<h2>VIVE UNA GRAN EXPERIENCIA</h2>
-					</div>
-					<div class="col-12">
-						<h4>Brindamos servicios de Consultoría en Implementación de Sistemas de Gestión.</h4>
-					</div>
+		</div>
+		<div class="slide slide2 col-12">
+			<div class="col-12 info col-md-4 offset-md-1">
+				<div class="col-12">
+					<h2>VIVE UNA GRAN EXPERIENCIA</h2>
+				</div>
+				<div class="col-12">
+					<h4>Brindamos servicios de Consultoría en Implementación de Sistemas de Gestión.</h4>
 				</div>
 			</div>
-			<div class="slide slide3 col-12">
-				<div class="col-12 info">
-					<div class="col-12">
-						<h2>VIVE UNA GRAN EXPERIENCIA</h2>
-					</div>
-					<div class="col-12">
-						<h4>Brindamos servicios de Consultoría en Implementación de Sistemas de Gestión.</h4>
-					</div>
+		</div>
+		<div class="slide slide3 col-12">
+			<div class="col-12 info col-md-4 offset-md-5">
+				<div class="col-12">
+					<h2>VIVE UNA GRAN EXPERIENCIA</h2>
+				</div>
+				<div class="col-12">
+					<h4>Brindamos servicios de Consultoría en Implementación de Sistemas de Gestión.</h4>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--==========ABOUT US===========-->
-	<section class="aboutUs container">
-		<div class="row justify-content-center">
-			<div class="col-9 about-box">
-				<h2>Quiénes Somos</h2>
-				<p>Somos una empresa dedicada a brindar consultoría en implementación de sistemas de gestión y soluciones integrales en
-					mejora de procesos, contribuyendo de manera significativa al cumplimiento de objetivos y metas de nuestros clientes.</p>
+	<section class="aboutUs container" id="aboutUs">
+		<div class="row justify-content-center pb-4">
+			<div class="col-12 col-md-5 mt-5">
+				<div class="col-12 about-box">
+					<h2>Quiénes Somos</h2>
+					<p>Somos una empresa dedicada a brindar consultoría en implementación de sistemas de gestión y soluciones integrales en
+						mejora de procesos, contribuyendo de manera significativa al cumplimiento de objetivos y metas de nuestros clientes.</p>
+				</div>
+				<div class="col-12">
+					<h2>Nuestro Valores</h2>
+					<ol>
+						<li>
+							<img src="assets/icons/icon1.png" alt="Círculo azul">
+							<span>Orientación al cliente</span>
+						</li>
+						<li>
+							<img src="assets/icons/icon1.png" alt="Círculo azul">
+							<span>Trabajo en equipo</span>
+						</li>
+						<li>
+							<img src="assets/icons/icon1.png" alt="Círculo azul">
+							<span>Compromiso</span>
+						</li>
+						<li>
+							<img src="assets/icons/icon1.png" alt="Círculo azul">
+							<span>Innovación</span>
+						</li>
+					</ol>
+				</div>
 			</div>
-			<div class="col-9">
-				<h2>Nuestro Valores</h2>
-				<ol>
-					<li>
-						<img src="assets/icons/icon1.png" alt="Círculo azul">
-						<span>Orientación al cliente</span>
-					</li>
-					<li>
-						<img src="assets/icons/icon1.png" alt="Círculo azul">
-						<span>Trabajo en equipo</span>
-					</li>
-					<li>
-						<img src="assets/icons/icon1.png" alt="Círculo azul">
-						<span>Compromiso</span>
-					</li>
-					<li>
-						<img src="assets/icons/icon1.png" alt="Círculo azul">
-						<span>Innovación</span>
-					</li>
-				</ol>
-			</div>
-			<div class="col-12 image">
-				<img src="assets/images/foto3.png" alt="Foto 3" class="col-10 offset-1">
+			<div class="col-12 image col-md-6">
+				<img src="assets/images/foto3.png" alt="Foto 3" class="img-fluid">
 			</div>
 		</div>
 	</section>
 	<!--==========SERVICE===========-->
-	<section class="service container">
-		<div class="row justify-content-center">
-			<div class="col-10">
+	<section class="service container" id="service">
+		<div class="row">
+			<div class="col-10 col-md-12 my-0">
 				<h2>ESTÁNDARES INTERNACIONALES</h2>
 			</div>
-			<div class="col-11 iso-boxes">
-				<div class="col-12 text-center cursor">
-					<div class="container">
-						<div class="row align-items-center iso-box">
-							<div class="col">
+			<div class="col-12 iso-boxes col-md-12">
+				<div class="row justify-content-md-center">
+					<div class="col-12 text-center cursor col-md-3 iso-box">
+						<div class="d-flex justify-content-center h-100">
+							<div class="align-self-center">
 								<h3>ISO</h3>
 								<p>9001:2015</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 text-center">
-					<div class="container">
-						<div class="row align-items-center iso-box">
-							<div class="col">
+					<div class="col-12 text-center col-md-3 iso-box">
+						<div class="d-flex justify-content-center h-100">
+							<div class="align-self-center">
 								<h3>ISO</h3>
 								<p>45001:2018</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 text-center">
-					<div class="container">
-						<div class="row align-items-center iso-box">
-							<div class="col">
+					<div class="col-12 text-center col-md-3 iso-box">
+						<div class="d-flex justify-content-center h-100">
+							<div class="align-self-center">
 								<h3>ISO</h3>
 								<p>14001:2015</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 text-center">
-					<div class="container">
-						<div class="row align-items-center iso-box">
-							<div class="col">
+					<div class="col-12 text-center col-md-3 iso-box">
+						<div class="d-flex justify-content-center h-100">
+							<div class="align-self-center">
 								<h3>ISO</h3>
 								<p>17025:2017</p>
 							</div>
@@ -164,7 +206,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-8">
+			<div class="col-8 col-md-10 offset-md-1 offset-2">
 				<div class="slider-customers">
 					<div class="slick-slide">
 						<img class="img-fluid" src="assets/images/clientes/1.jpg" alt="Camara de comercio de Lima logo">
@@ -198,38 +240,40 @@
 		</div>
 	</section>
 	<!--==========CONTACT===========-->
-	<section class="contact container">
+	<section class="contact container" id="contact">
 		<div class="row justify-content-center">
-			<div class="col-10">
+			<div class="col-10 col-md-12">
 				<h2>Contáctenos</h2>
 				<hr>
 			</div>
-			<div class="date-contact col-9">
-				<div class="col-12 text-center">
-					<img src="assets/icons/cel.png" alt="Teléfono images" class="">
-					<p class="contact-subtitle">Teléfono</p>
-					<p class="contact-text">L a V 8:30 am - 6pm
-						<br> (511)463-3434
-					</p>
-				</div>
-				<div class="col-12 text-center">
-					<img src="assets/icons/point.png" alt="Teléfono images" class="">
-					<p class="contact-subtitle">Dirección</p>
-					<p class="contact-text">Av. Guiseppe Garibaldi N°396
-						<br> Jesús María - Lima
-					</p>
-				</div>
-				<div class="col-12 text-center">
-					<img src="assets/icons/email.png" alt="Teléfono images" class="">
-					<p class="contact-subtitle">Correo</p>
-					<p class="contact-text">turismo@camaradelima.org.pe</p>
+			<div class="date-contact col-9 col-md-8">
+				<div class="row justify-content-md-center">
+					<div class="col-12 text-center col-md-4">
+						<img src="assets/icons/cel.png" alt="Teléfono images" class="">
+						<p class="contact-subtitle">Teléfono</p>
+						<p class="contact-text">L a V 8:30 am - 6pm
+							<br> (511)463-3434
+						</p>
+					</div>
+					<div class="col-12 text-center col-md-4">
+						<img src="assets/icons/point.png" alt="Teléfono images" class="">
+						<p class="contact-subtitle">Dirección</p>
+						<p class="contact-text">Av. Guiseppe Garibaldi N°396
+							<br> Jesús María - Lima
+						</p>
+					</div>
+					<div class="col-12 text-center col-md-4">
+						<img src="assets/icons/email.png" alt="Teléfono images" class="">
+						<p class="contact-subtitle">Correo</p>
+						<p class="contact-text">turismo@camaradelima.org.pe</p>
+					</div>
 				</div>
 			</div>
 			<div class="text-contact col-9">
-				<p class="m-0">Si tienes alguna consulta, completa el siguente <br>
-						formulario y comunicate con nosotros</p>
+				<p class="m-0">Si tienes alguna consulta, completa el siguente
+					<br> formulario y comunicate con nosotros</p>
 			</div>
-			<div class="form-contact col-10">
+			<div class="form-contact col-10 col-md-5">
 				<form class="container">
 					<div class="row justify-content-center">
 						<div class="col-12 my-3">
@@ -251,7 +295,7 @@
 							<textarea placeholder="Consulta / Mensaje" class="form-control"></textarea>
 						</div>
 						<div class="col-12">
-								<button type="button" class="my-4 float-right btn btn-primary">Enviar</button>
+							<button type="button" class="my-4 float-right btn btn-primary">Enviar</button>
 						</div>
 					</div>
 				</form>
@@ -259,20 +303,42 @@
 		</div>
 	</section>
 	<footer class="text-center text-white">
-		<div class="col-12 mt-5">
+		<div class="col-12 mt-5 d-block d-sm-none">
 			<a class="text-white" href="https://desafio-openlab-frontend.mybluemix.net/index.php?nombre=&apellidos=&telefono=&correo=&celular=&mensaje=">informes@companyperu.com</a>
 			<div class="col-12 mt-4">
 				<a href="" class="text-white">
-				<div class="col-12 my-2">
-				<p>faceboook  <img src="assets/icons/fb.png" alt=""></p>
+					<div class="col-12 my-2">
+						<p>faceboook
+							<img src="assets/icons/fb.png" alt="">
+						</p>
+					</div>
+				</a>
+				<a href="" class="text-white">
+					<div class="col-12">
+						<p>instagram
+							<img src="assets/icons/insta.png" alt="instagram logo" class="">
+						</p>
+					</div>
+				</a>
 			</div>
-		</a>
-		<a href="" class="text-white">
-			<div class="col-12">
-				<p>instagram  <img src="assets/icons/insta.png" alt="" class=""></p>
-			</div>
-		</a>
 		</div>
+		<div class="container d-none d-sm-block">
+			<div class="row">
+				<div class="col-md-4 d-flex justify-content-center">
+					<p class="align-self-center">Síguenos en faceboook
+						<img src="assets/icons/fb.png" alt="faceboook logo">
+						<img src="assets/icons/insta.png" alt="" class="instagram logo">
+					</p>
+				</div>
+				<div class="col-md-4 d-flex justify-content-center">
+					<div class="align-self-center">
+						<a class="text-white" href="https://desafio-openlab-frontend.mybluemix.net/index.php?nombre=&apellidos=&telefono=&correo=&celular=&mensaje=" target="_blank">informes@companyperu.com</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/logo/logo222.png" alt="">
+				</div>
+			</div>
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

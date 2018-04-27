@@ -206,10 +206,12 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-light-color;
+      color: #868686;
+      font-size: 18px;
+      font-weight: bold;
 
       @include hover-focus {
-        color: $navbar-light-hover-color;
+        color: #428bca;
       }
 
       &.disabled {
@@ -221,7 +223,7 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-light-active-color;
+      color: #2f527e;
     }
   }
 
@@ -273,7 +275,7 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-dark-active-color;
+      color: #2f527e;
     }
   }
 

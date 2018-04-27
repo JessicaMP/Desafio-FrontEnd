@@ -6,20 +6,48 @@ body {
 /*=========HEADER=========*/
 header {
 	box-shadow: 0px 0px 5px black;
-	margin-bottom: 2.406px;
 
-	.navbar {
-		box-shadow: 0px 0px 5px black;
-	}
-
-	.navbar-brand img {
-		width: 150px;
-		padding-left: 7.5px;
+	.nav-item {
+		width: 25%;
 	}
 }
 
 .navbar-toggler {
     border: white !important;
+}
+
+.icons-box {
+	.icons {
+		background-size: cover;
+		width: 22px;
+		height: 22px;
+		display: inline-block;
+		margin: 0 5px;
+	}
+	
+	.ico1 {
+		background-image: url('../assets/icons/icono1.png');
+	}
+
+	.ico1:hover {
+		background-image: url('../assets/icons/1.png');
+	}
+
+	.ico2 {
+		background-image: url('../assets/icons/icono2.png');
+	}
+
+	.ico2:hover {
+		background-image: url('../assets/icons/2.png');
+	}
+
+	.ico3 {
+		background-image: url('../assets/icons/icono3.png');
+	}
+
+	.ico3:hover {
+		background-image: url('../assets/icons/3.png');
+	}
 }
 /*=========SLIDER=========*/
 .slider {
@@ -37,11 +65,11 @@ header {
 	}
 		
 	h4 {
-		text-align: center;
 		color: #f1f2f5;
 		margin-top: 0;
 		margin-bottom: 0;
 		font-size: 16px;
+		text-align: center;
 	}
 		
 	span {
@@ -84,7 +112,18 @@ header {
 		}
 	}
 } 
+	
+.slide1 {
+	background-image: url("../assets/images/slider11.jpg");
+}
 
+.slide2 {
+	background-image: url("../assets/images/slider22.jpg");
+}
+
+.slide3 {
+	background-image: url("../assets/images/slider33.jpg");
+}
 /*=========ABOUT US=========*/
 .aboutUs {
 	color: #013e7d;
@@ -153,6 +192,10 @@ header {
 		p {
 			font-size: 20px;
 		}
+	}
+
+	.iso-box {
+		display: inline-block;
 	}
 
 	.iso-box:hover {
@@ -290,21 +333,63 @@ footer {
 }
 
 @media(max-width: 560px){
-    .slide {
-			background-repeat: no-repeat;
-			background-position: center;
-			background-size: cover;
-			height: 467px !important;
-    }
-    .slide1 {
-			background-image: url("../assets/images/slider11.jpg");
-    }
+	.navbar-brand img {
+		width: 150px;
+		padding-left: 7.5px;
+	}
 
-    .slide2 {
-			background-image: url("../assets/images/slider22.jpg");
-    }
+	.slide {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 467px !important;
+	}
 
-    .slide3 {
-        background-image: url("../assets/images/slider33.jpg");
-    }
+	.slider {
+		margin-top: 75px;
+	}
+}
+
+@media (min-width: 561px) {
+	.navbar-brand img {
+		width: 230px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: 200px;
+	}
+	
+	.slide {
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 567px !important;
+	}
+
+	.slider {
+		margin-top: 120px;
+
+		h2 {
+			text-align: left;
+		}
+
+		h4 {
+			text-align: left;
+		}
+	}
+
+	.aboutUs {
+		p {
+			font-size: 1rem;
+		}
+
+		ol {
+			span {
+				font-size: 1rem;
+			}
+		}
+
+		.image {
+			padding-right: 70px;
+		}
+	}
 }
